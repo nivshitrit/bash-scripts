@@ -2,10 +2,9 @@
 echo Generating...
 cd /usr/local/bin
 echo "git rm --cache \"*.pyc\"
-concat=\"\$*\"
+COMMENT=\"\$*\"
 git add .
-git commit -m \"\$concat\"
+git commit -m \"\$COMMENT\"
 git push" > push
 chmod 777 push
 echo Generation for 'push' completed!
-
