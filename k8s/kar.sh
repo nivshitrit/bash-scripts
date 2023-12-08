@@ -1,7 +1,6 @@
 #!/bin/bash
-echo "Generating................
--"
+echo Generating...
 cd /usr/local/bin
-echo "kubectl apply -f \"\$1\" --recursive" > kar
+echo kubectl apply -f \"\$1\" --recursive > kar
 chmod 777 kar
-echo "Generation for 'kar' completed!"
+echo Generation for 'kar' completed!

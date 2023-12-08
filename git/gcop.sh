@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "Generating................
--"
+echo Generating...
 cd /usr/local/bin
 echo "git checkout \"\$1\"
 git pull" > gcop

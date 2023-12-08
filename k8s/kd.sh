@@ -1,7 +1,6 @@
 #!/bin/bash
-echo "Generating................
--"
+echo Generating...
 cd /usr/local/bin
-echo "kubectl delete -f \"\$1\"" > kd
+echo kubectl delete -f \"\$1\" > kd
 chmod 777 kd
-echo "Generation for 'kd' completed!"
+echo Generation for 'kd' completed!
