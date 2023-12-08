@@ -2,7 +2,7 @@
 echo Generating...
 cd /usr/local/bin
 echo "git rm --cache \"*.pyc\"
-args=(\"\$@\")
+args=\"\$*\"
 git add .
 git commit -m \"\$args\"
 git push" > push
